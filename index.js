@@ -19,6 +19,7 @@ function deepestChild() {
   var iterator = ["#grand-node"];
   
   while(grandDiv.hasChildNodes()) {
+    if ()
     iterator.push("div");
     var iteratorString = iterator.join(' ')
     grandDiv = document.querySelector(iteratorString);
