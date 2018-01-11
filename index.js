@@ -23,5 +23,5 @@ function deepestChild() {
   }
   var iteratorString = iterator.join(' ')
   grandDiv = document.querySelector(iteratorString)
-  return grandDiv.innerHTML;
+  return grandDiv;
 }
